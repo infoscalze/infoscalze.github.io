@@ -359,10 +359,17 @@ h3.group-title {
 .mockup {
 	margin:0 2.5em;
 }
+.mockup-large {
+	margin:0;
+}
 .mockup img {
 	max-width: 60%;
     height: auto;
     margin: 3em auto;
+}
+.mockup-large img{
+	margin:0;
+	max-width: 140%;
 }
 .mockup img.img-center {
 	margin:0 auto;
@@ -1209,7 +1216,7 @@ a.create-sheet:hover {
 	}
 
 	.section-home-header {
-		height: 60vh;
+		height: 100vh;
 		padding: 20px;
 	}
 	.section-head {
@@ -1240,7 +1247,7 @@ a.create-sheet:hover {
 	}
 
 	.intro-message > h1, .top-content h1 {
-		font-size: 1.8em;
+		font-size: 2.8em;
 	}
 	.section-info .main-title {
 		font-size:1.65em;
@@ -1248,6 +1255,20 @@ a.create-sheet:hover {
 
 	.section-info .main-title:after {
 		left: 33%;
+	}
+
+	ul.featured li {
+		margin: 20px 20px;
+	}
+	ul.featured li img {
+    	height: auto;
+    	max-width: 100px;
+	}
+	.mockup-large {
+		margin-left: -50%;
+	}
+	.ht-feature-icon img {
+    width: 60px;
 	}
 
 	.program-img img {

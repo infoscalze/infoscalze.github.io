@@ -213,6 +213,8 @@
 
 .intro-divider {
 	width: 400px;
+	margin-left: auto;
+	margin-right: auto;
 	border-top: 1px solid #F8F8F8;
 	border-bottom: 1px solid rgba(0, 0, 0, 0.2);
 }
@@ -225,6 +227,18 @@
 	max-width: 100%;
 }
 
+.intro-img-abs {
+	position: relative;
+}
+.intro-img-abs .__img{
+	max-width: 90%;
+    position: absolute;
+    top: -75px;
+}
+.divider {
+	height:2px;
+	width: 
+}
 /*==== Featured =====*/
 ul.featured {
     list-style: none;
@@ -248,8 +262,6 @@ ul.featured li a:hover img {
 ul.featured-sm li img {
     height:35px; /*-- For Footer Logo ---*/
 }
-
-
 
 /*=== Feature Box ====*/
 .feature-box {
@@ -362,6 +374,7 @@ h3.group-title {
 .mockup-large {
 	margin:0;
 }
+
 .mockup img {
 	max-width: 60%;
     height: auto;
@@ -373,6 +386,11 @@ h3.group-title {
 }
 .mockup img.img-center {
 	margin:0 auto;
+}
+.mockup-main img{
+	max-width: 130%;
+    height: auto;
+    margin-left: -20%;
 }
 .cta i {
 	margin-left:3px;
@@ -856,7 +874,59 @@ ul.options li {
 	color: #F5F5F5;
 	font-size: 0.9em;
 }
-
+/*===== Ul Feature List =======**/
+ul.feature-list {
+	list-style: none;
+    font-family: 'Helvetica Neue', 'sans-serif';
+    padding: 0;
+}
+ul.feature-list i {
+	margin: 3px 15px;
+    display: inline-block;
+    float: left;
+    vertical-align: middle;
+    font-size: 1.3em;
+    width: 25px;
+    text-align: center;
+}
+ul.feature-list li {
+	margin-top:18px;
+	font-size: 1.2em;
+	color: #696969;
+}
+/*== Testimonials Page ===*/
+img.quote-img {
+    position: relative;
+    height: 50px;
+    top: 0;
+    left: 48%;
+    opacity: 0.2;
+}
+.review-card{
+	font-family: 'Helvetica','sans-serif';
+    background: #fff;
+    padding: 35px 30px 25px;
+    margin-top: 30px;
+    text-align: center;
+    box-shadow: 0 0 80px rgba(0, 0, 0, 0.09);
+    min-height: 300px;
+}
+.review-card img {
+	height:65px;
+	margin-bottom: 15px;
+}
+.review-card h4 {
+	font-size: 1.3em;
+}
+.review-card h5 {
+	color:#8a8a8a; 
+}
+.review-card p {
+    font-size: 1.1em;
+    margin-top: 10px;
+    color: #565656;
+    min-height: 90px;
+}
 /*===== Mock Interview Page =======*/
 ul.rounded-lists {
 	list-style: none;
@@ -957,6 +1027,58 @@ ul.rounded-lists li.bg-col-green {
 	height: auto;
 	font-size: 1.15em;
 	font-family: 'futura-pt', "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+/*===== Form Highlights =====*/
+.contact-highlights {
+	background: #6f3bd6;
+	padding: 45px 40px;
+}
+.contact-highlights,.contact-overlay {
+	flex:1;
+}
+.course-contact-form {
+	padding:25px 15px;
+}
+.course-highlight .highlights {
+	padding: 15px 20px;
+	font-family: 'Lato', 'sans-serif';
+}
+.form-horizontal .form-group {
+	margin-left:0;
+	margin-right: 0;
+}
+
+.high-num {
+	font-size: 2em;
+	font-weight: 500;
+	display: block;
+}
+
+.high-details {
+	max-width: 200px;
+	margin: 7px auto;
+	font-size: 1.1em;
+}
+.contact-feature {
+	font-family: 'Lato', 'Helvetica Neue', 'sans-serif';
+	text-align: left;
+	margin-top: 20px;
+}
+
+.contact-feature h5 {
+	font-size: 1.2em;
+}
+
+.contact-feature p {
+	color: #F5F5F5;
+	font-size: 0.9em;
+}
+
+.contact-feature img {
+	width: 100%;
+    padding-right: 20px;
+    padding-top: 10px;
 }
 
 /*===== Footer =====*/

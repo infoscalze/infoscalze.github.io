@@ -91,6 +91,11 @@
 .flaticon-people:before { content: "\f104"; }
 .flaticon-resume:before { content: "\f105"; }
 
+body {
+	margin:0;
+	padding: 0;
+	overflow-x: hidden;
+}
 .no-margin {
 	margin: 0;
 }
